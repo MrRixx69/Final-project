@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(21,13,44,1) 40%, rgba(42,28,54,1) 68%);
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 10px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #666;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.highlight {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.movie-poster {
+    width: 200px;
+    height: 300px;
+    background-color: #555;
+}
+
+.movie-info {
+    flex-grow: 2;
+    color: rgb(255, 255, 255);
+}
+
+.cast {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cast .actor {
+    width: 100px;
+    height: 100px;
+    background-color: #666;
+    border-radius: 5px;
+}
+
+.recommendations {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recommendations-container {
+    display: flex;
+    gap: 10px;
+}
+
+.recommendations .movie {
+    width: 150px;
+    height: 225px;
+    background-color: #777;
+    border-radius: 5px;
+}
+
+.text-container{
+
+    width: 400px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+
+}
+
+.Inter{
+
+    height: 300px;
+
+}
+
+.ac1{
+
+    height: 100px;
+    border-radius: 5px
+
+}
+
+.ac2{
+
+    height: 100px;
+    border-radius: 5px
+
+}
+
+.ac3{
+
+    height: 100px;
+    border-radius: 5px
+
+}
+
+.ac4{
+
+    height: 100px;
+    border-radius: 5px
+
+}
