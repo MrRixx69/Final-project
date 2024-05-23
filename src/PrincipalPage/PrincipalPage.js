@@ -10,7 +10,7 @@ function PrincipalPage(){
 
     return(
 
-        <>
+        <div className='bodyM'>
         
         <div class="container">
         <header>
@@ -18,7 +18,7 @@ function PrincipalPage(){
             <nav>
                 <a href="#">Filmes</a>
                 <a href="#">Livros</a>
-                <a href="#">Home</a>
+                <a href="/register">Register</a>
             </nav>
         </header>
         <main>
@@ -67,7 +67,7 @@ function PrincipalPage(){
         </main>
     </div>
 
-        </>
+        </div>
 
     )
 

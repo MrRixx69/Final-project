@@ -1,6 +1,7 @@
-body {
+.bodyM {
     font-family: Arial, sans-serif;
     margin: 0;
+    min-height: 100vh;
     padding: 0;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(21,13,44,1) 40%, rgba(42,28,54,1) 68%);
@@ -62,8 +63,9 @@ main {
 
 .cast {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    gap: 20px;
+
 }
 
 .cast .actor {

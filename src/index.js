@@ -1,15 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import LoginPage from './Login Page/LoginPage';
+import LoginPage from './Login/LoginPage';
 import PrincipalPage from './PrincipalPage/PrincipalPage';
+import Register from './RegisterPage/Register';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import "./index.css";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <div>Hello world!</div>,
+  },
+
+  {
+    path: "/register",
+    element: <Register />
+
+  },
+
+  {
+    path: "/login",
+    element: <LoginPage />
+
+  },
+
+  {
+    path: "/movies",
+    element: <PrincipalPage />
+
+  }
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <PrincipalPage />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

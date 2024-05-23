@@ -1,3 +1,8 @@
+body{
+
+background: url('../Imgs/Netflix.jpg');
+
+}
 
 .size{
 
@@ -5,7 +10,7 @@
 
 }
 
-.container{
+.containerCad{
 
     display: flex;
     flex-direction: column;
@@ -13,8 +18,8 @@
     margin-top: 200px;
     background: #ffffffa9;
     padding-bottom: 30px;
-    height: 700px;
-    width: 500px;
+    height: 500px;
+    width: 600px;
     border-radius: 20px;
 
 }
@@ -88,11 +93,12 @@
 
 .forget-pass{
 
-    padding-left: 40px;
+    padding-left: 100px;
     margin-top: 27px;
     color: #000000;
     font-size: 18px;
     font-weight: 700;
+    
 
 }
 
@@ -109,6 +115,8 @@
     gap: 30px;
     margin: 60px auto;
     margin-bottom: 4;
+    padding-left: 60px;
+    
 
 }
 
@@ -155,4 +163,3 @@
     cursor: pointer;
 
 }
-

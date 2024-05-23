@@ -1,4 +1,4 @@
-import './LoginPage.css';
+import './Register.css';
 
 
 
@@ -22,7 +22,7 @@ return(
 
     </div>
 
-    <div className='container'>
+    <div className='containerLogin'>
 
         <div className='header'>
 
@@ -50,7 +50,8 @@ return(
         <div className='forget-pass'>Esqueceu sua senha? <span>Clique Aqui</span></div>
 
         <div className='submit-conteiner'>
-            <div className='submit'>Logar</div><div className='submit'>Entrar</div>
+           <a href="/login"> <button className='submit'>Logar</button></a>
+           <div className='submit'>Entrar</div>
         </div>
 
         </div>
