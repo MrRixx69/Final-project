@@ -2,7 +2,7 @@
     font-family: Arial, sans-serif;
     margin: 0;
     min-height: 100vh;
-    padding: 0;
+    padding: 50px;
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(21,13,44,1) 40%, rgba(42,28,54,1) 68%);
 }
@@ -79,6 +79,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-top: 180px;
+    
 }
 
 .recommendations-container {
@@ -108,30 +110,8 @@ main {
 
 }
 
-.ac1{
+.txc{
 
-    height: 100px;
-    border-radius: 5px
-
-}
-
-.ac2{
-
-    height: 100px;
-    border-radius: 5px
-
-}
-
-.ac3{
-
-    height: 100px;
-    border-radius: 5px
-
-}
-
-.ac4{
-
-    height: 100px;
-    border-radius: 5px
+    color: white;
 
 }
